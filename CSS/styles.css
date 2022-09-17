@@ -121,69 +121,69 @@ body {
 }
 
 .about-txt {
-font-weight: 400;
-font-size: 14px;
-line-height: 1.71
-letter-spacing: 0.03em;
-color: var(--secondary-text-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
 }
 
 /*------work-----*/
 
-.work{
-background-color: var(--white-background-color);
+.work {
+  background-color: var(--white-background-color);
 }
 
-.work-title{
-font-weight: 700;
-font-size: 36px;
-line-height: 42px;
-text-align: center;
-letter-spacing: 0.03em;
-color: var(--primary-text-color);
+.work-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
 }
 
 /*------team------*/
 
-.team{
-background-color: var(--team-background-color);
+.team {
+  background-color: var(--team-background-color);
 }
 
-.team-title{
-font-weight: 700;
-font-size: 36px;
-line-height: 1.17;
-text-align: center;
-letter-spacing: 0.03em;
-color: var(--primary-text-color);
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
 }
 
-.team-name{
-font-weight: 500;
-font-size: 16px;
-line-height: 1.19;
-text-align: center;
-letter-spacing: 0.03em;
-color: var(--primary-text-color);
+.team-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
 }
 
-.team-txt{
-font-weight: 400;
-font-size: 16px;
-line-height: 1.19;
-text-align: center;
-letter-spacing: 0.03em;
-color: var(--primary-text-color);
+.team-txt {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
 }
 
 /*---------footer-------*/
 
-.footer{
-    background-color: var(--footer-background-color);
+.footer {
+  background-color: var(--footer-background-color);
 }
 
-.footer-logo{
- font-family: 'Raleway';
+.footer-logo {
+  font-family: 'Raleway';
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
@@ -192,34 +192,34 @@ color: var(--primary-text-color);
   color: var(--accent-color);
 }
 
-.footer-map{
-font-weight: 400;
-font-size: 14px;
-line-height: 1.71;
-letter-spacing: 0.03em;
-color: var(--white-text-color);
+.footer-map {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--white-text-color);
 }
 
-.footer-mail{
-font-weight: 400;
-font-size: 14px;
-line-height: 1.71;
-letter-spacing: 0.03em;
-color: var(--footer-text-color);
+.footer-mail {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--footer-text-color);
 }
 
-.footer-tel{
-font-weight: 400;
-font-size: 14px;
-line-height: 1.71;
-letter-spacing: 0.03em;
-color: var(--footer-text-color);
+.footer-tel {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--footer-text-color);
 }
 
 /*--------filter-btn-------*/
 
-.filter-title{
-position: absolute;
+.filter-title {
+  position: absolute;
   white-space: nowrap;
   width: 1px;
   height: 1px;
@@ -231,37 +231,36 @@ position: absolute;
   margin: -1px;
 }
 
-.filter-btn{
-font-weight: 500;
-font-size: 16px;
-line-height: 1.62;
-text-align: center;
-letter-spacing: 0.03em;
-color: var(--primary-text-color);
-background-color: var(--team-background-color);
-cursor: pointer;
+.filter-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+  background-color: var(--team-background-color);
+  cursor: pointer;
 }
 
-.filter-btn:hover{
-color: var(--white-text-color);
-background-color: var(--accent-color);
+.filter-btn:hover {
+  color: var(--white-text-color);
+  background-color: var(--accent-color);
 }
 
 /*--------filter-------*/
 
-.projects-titel{
-font-weight: 700;
-font-size: 18px;
-line-height: 2;
-letter-spacing: 0.06em;
-color: var(--primary-text-color);
+.projects-titel {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--primary-text-color);
 }
 
-.projects-txt{
-font-weight: 400;
-font-size: 16px;
-line-height: 1.88;
-letter-spacing: 0.03em;
-color: var(--secondary-text-color);
+.projects-txt {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
 }
-
