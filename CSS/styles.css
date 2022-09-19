@@ -8,6 +8,7 @@
   --white-background-color: #ffffff;
   --team-background-color: #f5f4fa;
   --footer-background-color: #2f303a;
+  --hero-buton-activ: #188ce8;
 }
 
 body {
@@ -45,7 +46,7 @@ body {
 }
 
 .logo-studio {
-  color: #000000;
+  color: var(--primary-text-color);
 }
 
 .header-link {
@@ -90,18 +91,21 @@ body {
 }
 
 .hero-btn {
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--primary-text-color);
-  background-color: var(--team-background-color);
+  color: var(--white-text-color);
+  background-color: var(--accent-color);
   cursor: pointer;
 }
 
-.hero-btn:hover {
-  background-color: var(--accent-color);
+.hero-btn:hover,
+.hero-btn:focus,
+.hero-btn:active {
+  background-color: var(--hero-buton-activ);
   color: var(--white-text-color);
 }
 
@@ -123,6 +127,7 @@ body {
 .about-title {
   font-weight: 700;
   line-height: 1.14;
+  font-size: 14px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--primary-text-color);
@@ -179,10 +184,14 @@ body {
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--primary-text-color);
+  color: var(--secondary-text-color);
 }
 
 /*---------footer-------*/
+
+.logo-foter-studio {
+  color: var(--white-text-color);
+}
 
 .footer-address {
   font-style: normal;
@@ -221,19 +230,6 @@ body {
 }
 
 /*--------filter-btn-------*/
-
-.filter-title {
-  position: absolute;
-  white-space: nowrap;
-  width: 1px;
-  height: 1px;
-  overflow: hidden;
-  border: 0;
-  padding: 0;
-  clip: rect(0 0 0 0);
-  clip-path: inset(50%);
-  margin: -1px;
-}
 
 .filter-btn {
   font-family: inherit;
